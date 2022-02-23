@@ -1,0 +1,21 @@
+Source: https://www.computervision.zone/courses/finger-counter/
+
+1. Install libraries openCV
+python -m pip install -–upgrade pip
+pip install numpy
+pip install opencv-contrib-python-headless
+pip install --upgrade tensorflow
+pip install imutils
+pip install mediapipe
+
+#For Nextion, used in FingerCounter_HMI.py
+pip install pyserial
+#If found any library/module error, just install missing module
+2. Setup camera, 0 or 1 in FingerCounter.py
+cap = cv2.VideoCapture(0)
+3. Run Program
+python FingerCounter.py
+
+
+Thank You,
+Yaser Ali Husen
