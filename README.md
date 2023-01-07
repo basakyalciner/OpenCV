@@ -1,2 +1,2 @@
 # OpenCV
-Opencv de tasarladığım bireysel projelerim.
+My individual projects that I designed in opencv.
